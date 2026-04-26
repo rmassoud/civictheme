@@ -24,9 +24,6 @@
 *.tgz
 *.zip
 
-# Allow demo DB
-!civictheme.sql.gz
-
 # OS generated files #
 ######################
 .DS_Store
