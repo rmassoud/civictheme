@@ -1,0 +1,8 @@
+settings:
+  allowed_values:
+    0:
+      label: معلومات
+    2:
+      label: تحذير
+    3:
+      label: خطأ

@@ -35,4 +35,5 @@ hidden:
   field_c_b_banner_type: true
   field_c_b_featured_image: true
   field_c_b_theme: true
+  langcode: true
   search_api_excerpt: true

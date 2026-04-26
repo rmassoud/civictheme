@@ -16,6 +16,7 @@ dependencies:
     - field.field.node.civictheme_event.field_c_n_topics
     - field.field.node.civictheme_event.field_c_n_vertical_spacing
     - node.type.civictheme_event
+    - workflows.workflow.civictheme_editorial
   module:
     - content_moderation
     - datetime
@@ -249,6 +250,13 @@ content:
     weight: 7
     region: content
     settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   moderation_state:
     type: moderation_state_default

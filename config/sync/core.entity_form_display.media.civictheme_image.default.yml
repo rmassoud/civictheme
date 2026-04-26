@@ -8,6 +8,7 @@ dependencies:
     - field.field.media.civictheme_image.field_c_m_media_tags
     - image.style.civictheme_medium
     - media.type.civictheme_image
+    - workflows.workflow.civictheme_editorial
   module:
     - content_moderation
     - focal_point
@@ -52,6 +53,13 @@ content:
       match_limit: 10
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   moderation_state:
     type: moderation_state_default

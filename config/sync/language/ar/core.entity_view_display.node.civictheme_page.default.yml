@@ -1,0 +1,8 @@
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        components:
+          e1164245-8b1a-4a3f-8b30-30b00be44144:
+            configuration:
+              label: العناصر

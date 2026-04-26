@@ -1,0 +1,10 @@
+settings:
+  allowed_values:
+    -
+      label: 'لا شيء'
+    -
+      label: الأعلى
+    -
+      label: الأسفل
+    -
+      label: كلاهما

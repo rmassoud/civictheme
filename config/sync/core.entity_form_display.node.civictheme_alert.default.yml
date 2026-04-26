@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.civictheme_alert.field_c_n_body
     - field.field.node.civictheme_alert.field_c_n_date_range
     - node.type.civictheme_alert
+    - workflows.workflow.civictheme_editorial
   module:
     - content_moderation
     - datetime_range
@@ -53,6 +54,13 @@ content:
     weight: 9
     region: content
     settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   moderation_state:
     type: moderation_state_default

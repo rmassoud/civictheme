@@ -1,0 +1,19 @@
+type_settings:
+  states:
+    archived:
+      label: أرشفة
+    draft:
+      label: مسودة
+    published:
+      label: منشور
+  transitions:
+    archive:
+      label: أرشفة
+    create_new_draft:
+      label: 'إنشاء مسودة جديدة'
+    publish:
+      label: نشر
+    restore:
+      label: استعادة
+    restore_to_draft:
+      label: 'استعادة إلى المسودة'

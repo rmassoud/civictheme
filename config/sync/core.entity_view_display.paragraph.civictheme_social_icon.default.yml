@@ -16,16 +16,16 @@ bundle: civictheme_social_icon
 mode: default
 content:
   field_c_p_icon:
-    weight: 0
+    type: entity_reference_entity_view
     label: hidden
     settings:
-      link: true
       view_mode: default
+      link: true
     third_party_settings: {  }
-    type: entity_reference_entity_view
+    weight: 0
     region: content
   field_c_p_link:
-    weight: 1
+    type: link
     label: hidden
     settings:
       trim_length: 80
@@ -34,7 +34,7 @@ content:
       rel: ''
       target: ''
     third_party_settings: {  }
-    type: link
+    weight: 1
     region: content
 hidden:
   search_api_excerpt: true

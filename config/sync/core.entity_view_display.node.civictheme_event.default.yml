@@ -34,8 +34,8 @@ third_party_settings:
         layout_id: civictheme_three_columns
         layout_settings:
           label: Main
-          is_contained: false
           context_mapping: {  }
+          is_contained: false
         components:
           93c254ec-abeb-461a-b464-5247fd0083da:
             uuid: 93c254ec-abeb-461a-b464-5247fd0083da
@@ -114,18 +114,18 @@ third_party_settings:
             uuid: 634c10b6-05e3-46e7-98af-534e416fa822
             region: content
             configuration:
+              id: 'field_block:node:civictheme_event:field_c_n_date_range'
               label_display: '0'
               context_mapping:
                 entity: layout_builder.entity
-              id: 'field_block:node:civictheme_event:field_c_n_date_range'
               formatter:
                 type: daterange_default
                 label: above
                 settings:
                   timezone_override: ''
                   format_type: medium
-                  separator: '-'
                   from_to: both
+                  separator: '-'
                 third_party_settings: {  }
             weight: 0
             additional: {  }
@@ -162,8 +162,8 @@ content:
     settings:
       timezone_override: ''
       format_type: medium
-      separator: '-'
       from_to: both
+      separator: '-'
     third_party_settings: {  }
     weight: 0
     region: content
@@ -193,5 +193,6 @@ hidden:
   field_c_n_thumbnail: true
   field_c_n_topics: true
   field_c_n_vertical_spacing: true
+  langcode: true
   links: true
   search_api_excerpt: true

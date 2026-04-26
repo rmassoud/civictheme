@@ -1,0 +1,10 @@
+third_party_settings:
+  field_group:
+    group_tabs:
+      label: 'علامات التبويب'
+    group_content:
+      label: المحتوى
+    group_event:
+      label: الحدث
+    group_appearance:
+      label: المظهر

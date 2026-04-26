@@ -32,6 +32,11 @@ targetEntityType: node
 bundle: civictheme_event
 mode: civictheme_promo_card
 content:
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
+    region: content
   field_c_n_body:
     type: text_default
     label: visually_hidden
@@ -59,5 +64,6 @@ hidden:
   field_c_n_summary: true
   field_c_n_topics: true
   field_c_n_vertical_spacing: true
+  langcode: true
   links: true
   search_api_excerpt: true

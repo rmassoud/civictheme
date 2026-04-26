@@ -1,0 +1,11 @@
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        components:
+          693c2dc9-0290-4122-842b-3f1b9cd69380:
+            configuration:
+              label: التاريخ
+          2c1b19b3-bdd8-4b90-b5ef-ddcc0026bee4:
+            configuration:
+              label: المتن

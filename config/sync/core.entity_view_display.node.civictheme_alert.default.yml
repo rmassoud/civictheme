@@ -20,6 +20,11 @@ targetEntityType: node
 bundle: civictheme_alert
 mode: default
 content:
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
+    region: content
   field_c_n_alert_page_visibility:
     type: basic_string
     label: hidden
@@ -47,11 +52,12 @@ content:
     settings:
       timezone_override: ''
       format_type: medium
-      separator: '-'
       from_to: both
+      separator: '-'
     third_party_settings: {  }
     weight: 2
     region: content
 hidden:
+  langcode: true
   links: true
   search_api_excerpt: true

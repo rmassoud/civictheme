@@ -60,6 +60,7 @@ content:
 hidden:
   content_moderation_control: true
   created: true
+  langcode: true
   name: true
   search_api_excerpt: true
   thumbnail: true

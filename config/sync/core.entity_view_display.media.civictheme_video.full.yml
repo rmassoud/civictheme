@@ -44,6 +44,7 @@ hidden:
   created: true
   field_c_m_media_tags: true
   field_c_m_transcript_link: true
+  langcode: true
   name: true
   search_api_excerpt: true
   thumbnail: true
