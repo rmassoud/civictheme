@@ -1,5 +1,5 @@
 {
-    "_hash": "8752c66063daf5a550c3c0d809e0dd388ed5f027a4bd09c8a71e777b215df003",
+    "_hash": "28c718bd8a9e42597c3e927e907a340d548bc3854d598cd2581516e1bd4c6d67",
     "patches": {
         "drupal/core": [
             {
@@ -8,6 +8,18 @@
                 "url": "https://www.drupal.org/files/issues/2023-07-16/3204271-20-missing-layout-exception.patch",
                 "sha256": "548f5c25164b00dd7022c4ae506f59e67912d22fccbb8e84d15a7a8047918ee2",
                 "depth": 2,
+                "extra": {
+                    "provenance": "patches-file:composer.patches.json"
+                }
+            }
+        ],
+        "drupal/civictheme": [
+            {
+                "package": "drupal/civictheme",
+                "description": "Fix undefined array key 'url' for navigation module",
+                "url": "patches/civictheme-navigation-menu-url-fix.patch",
+                "sha256": "86aba75a3863cc294e4670f0bbc1b3d1f2c18e55d87e41afaa7a33a08a21313c",
+                "depth": 1,
                 "extra": {
                     "provenance": "patches-file:composer.patches.json"
                 }
