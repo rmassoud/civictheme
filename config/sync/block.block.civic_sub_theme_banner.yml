@@ -1,0 +1,23 @@
+uuid: 9ba0af4f-f831-49b9-a6a2-a9c6038f3957
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:civictheme_banner:50c52459-c100-4e4d-92a4-9c4c77d8f8d0'
+  module:
+    - block_content
+  theme:
+    - civic_sub_theme
+id: civic_sub_theme_banner
+theme: civic_sub_theme
+region: banner
+weight: 0
+provider: null
+plugin: 'block_content:50c52459-c100-4e4d-92a4-9c4c77d8f8d0'
+settings:
+  id: 'block_content:50c52459-c100-4e4d-92a4-9c4c77d8f8d0'
+  label: Banner
+  label_display: ''
+  provider: block_content
+  view_mode: full
+visibility: {  }

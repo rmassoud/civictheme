@@ -1,0 +1,22 @@
+uuid: 236b3e2c-9e04-4aae-83ba-70645b85f10c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - civic_sub_theme
+_core:
+  default_config_hash: lm86vMUr_4OB6wyf0BvNz6j9SMB1b73J458jGqqcumE
+id: civic_sub_theme_tabs
+theme: civic_sub_theme
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

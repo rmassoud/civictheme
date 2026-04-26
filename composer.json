@@ -17,6 +17,7 @@
     "require": {
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^2.0",
+        "drupal/admin_toolbar": "^3.6",
         "drupal/civictheme": "^1.12",
         "drupal/core-composer-scaffold": "^11.0",
         "drupal/core-recommended": "^11.0",
