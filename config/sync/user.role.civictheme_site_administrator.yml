@@ -31,6 +31,7 @@ dependencies:
     - filter
     - linkit
     - media
+    - navigation
     - node
     - path
     - pathauto
@@ -53,6 +54,7 @@ permissions:
   - 'access contextual links'
   - 'access files overview'
   - 'access media overview'
+  - 'access navigation'
   - 'access own webform configuration'
   - 'access shortcuts'
   - 'access site in maintenance mode'

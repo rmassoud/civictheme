@@ -11,7 +11,6 @@ module:
   comment: 0
   components: 0
   config: 0
-  config_translation: 0
   contact: 0
   content_moderation: 0
   contextual: 0
@@ -31,13 +30,11 @@ module:
   history: 0
   image: 0
   inline_form_errors: 0
-  language: 0
   layout_builder: 0
   layout_builder_restrictions: 0
   layout_discovery: 0
   link: 0
   linkit: 0
-  locale: 0
   media: 0
   media_library: 0
   menu_block: 0
@@ -66,7 +63,6 @@ module:
   webform: 0
   workflows: 0
   pathauto: 1
-  content_translation: 10
   views: 10
   paragraphs: 11
   standard: 1000
