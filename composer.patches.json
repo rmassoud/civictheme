@@ -2,6 +2,9 @@
   "patches": {
     "drupal/core": {
       "Layout builder cannot recover on missing layout - https://www.drupal.org/project/drupal/issues/3204271#comment-15151776": "https://www.drupal.org/files/issues/2023-07-16/3204271-20-missing-layout-exception.patch"
+    },
+    "drupal/civictheme": {
+      "Fix undefined array key 'url' for navigation module": "patches/civictheme-navigation-menu-url-fix.patch"
     }
   }
 }
