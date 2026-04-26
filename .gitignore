@@ -1,0 +1,101 @@
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tgz
+*.zip
+
+# Allow demo DB
+!civictheme.sql.gz
+
+# OS generated files #
+######################
+.DS_Store
+ehthumbs.db
+Thumbs.db
+web/.csslintrc
+web/.eslintignore
+.phpcs-cache
+
+# Ignore aggregate / compressed files #
+#######################################
+web/sites/*/files/js/*
+web/sites/*/files/css/*
+
+# Front end #
+#############
+node_modules/*
+web/.eslintrc.json
+web/.eslintrc
+.sass-cache
+web/libraries/*
+
+# Twig caches #
+###############
+web/sites/*/files/php/twig/*
+storage/php/twig/*
+
+# Akamai code #
+###############
+web/akamai/*
+
+# Ignore credentials #
+######################
+credentials/*
+.env
+
+# Ignore core, vendor and contrib modules
+web/core/*
+web/modules/contrib/*
+web/themes/contrib/*
+vendor/*
+bin
+
+# Ignore paths that may contain user-generated content
+web/sites/*/files
+web/sites/*/public
+web/sites/*/private
+web/sites/*/files-public
+web/sites/*/files-private
+
+# Ignore paths that may contain temporary files
+web/sites/*/translations
+web/sites/*/tmp
+web/sites/*/cache
+
+# Ignore testing related files
+web/sites/simpletest
+.phpunit.result.cache
+
+# Ignore drupal core (if not versioning drupal sources)
+# /.babelrc
+/.csslintrc
+/.editorconfig
+/.eslintignore
+/.eslintrc.json
+/.gitattributes
+
+# Local dev tools
+.idea
+.docksal/docksal-local.yml
+.docksal/docksal-local.env
+/cron-log.txt

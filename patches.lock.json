@@ -1,0 +1,17 @@
+{
+    "_hash": "8752c66063daf5a550c3c0d809e0dd388ed5f027a4bd09c8a71e777b215df003",
+    "patches": {
+        "drupal/core": [
+            {
+                "package": "drupal/core",
+                "description": "Layout builder cannot recover on missing layout - https://www.drupal.org/project/drupal/issues/3204271#comment-15151776",
+                "url": "https://www.drupal.org/files/issues/2023-07-16/3204271-20-missing-layout-exception.patch",
+                "sha256": "548f5c25164b00dd7022c4ae506f59e67912d22fccbb8e84d15a7a8047918ee2",
+                "depth": 2,
+                "extra": {
+                    "provenance": "patches-file:composer.patches.json"
+                }
+            }
+        ]
+    }
+}
