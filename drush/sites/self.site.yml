@@ -1,0 +1,7 @@
+prod:
+  host: mcit.codestream.com.au
+  user: bitnami
+  root: /opt/bitnami/projects/mcit/web
+  uri: mcit.codestream.com.au
+  paths:
+    drush-script: /opt/bitnami/projects/mcit/vendor/bin/drush
