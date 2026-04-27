@@ -16,7 +16,7 @@
     ],
     "require": {
         "composer/installers": "^2.0",
-        "cweagans/composer-patches": "^2.0",
+        "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.6",
         "drupal/civictheme": "^1.12",
         "drupal/core-composer-scaffold": "^11.0",
@@ -48,9 +48,9 @@
         ]
     },
     "extra": {
-        "composer-patches": {
-            "patches-file": "composer.patches.json"
-        },
+        "patches-file": "composer.patches.json",
+        "composer-exit-on-patch-failure": true,
+        "enable-patching": true,
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
