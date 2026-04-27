@@ -21,3 +21,8 @@ $settings['class_loader_auto_detect'] = FALSE;
  * Reverse proxy settings.
  */
 $settings['reverse_proxy'] = FALSE;
+
+/**
+ * Overwrite Redis settings.
+ */
+$settings['redis.connection']['host'] = 'redis';

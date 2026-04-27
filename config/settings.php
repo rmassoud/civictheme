@@ -40,6 +40,14 @@ $settings['file_public_path'] = 'sites/default/files';
 $settings['file_private_path'] = 'sites/default/files/private';
 
 /**
+ * Redis
+ */
+if (!empty(getenv('REDIS_HOST'))) {
+  require dirname(__FILE__) . "/includes/redis.settings.php";
+  $settings['redis.connection']['host'] = getenv('REDIS_HOST');
+}
+
+/**
  * Set developer mode.
  */
 if (getenv('DEVELOPER_MODE') == 1) {

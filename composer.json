@@ -21,6 +21,7 @@
         "drupal/civictheme": "^1.12",
         "drupal/core-composer-scaffold": "^11.0",
         "drupal/core-recommended": "^11.0",
+        "drupal/redis": "^1.11",
         "drupal/search_api_db": "^1.38",
         "drupal/webform": "^6.3@beta",
         "vlucas/phpdotenv": "^5.6"
